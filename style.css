@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    background-color: #012043;
+    text-align: center;
+}
+
+main {
+    display: inline-block;
+    
+}
+
+.cabecalho {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 100%;
+}
+
+.conteinerBuscar{
+    background-color:#D34646;
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px 40px 8px 8px;
+    border: solid rgb(51, 51, 51);
+    width: 250px;
+}
+
+.conteinerBuscar .inputPersonagem {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 9px;
+    width: 91%;
+    
+}
+
+.conteinerBuscar .btnBuscar {
+    text-align: center;
+    padding: 4px;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.conteinerBuscar .btnBuscar:hover {
+    background-color: rgb(161, 161, 161);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.conteinerPersonagem {
+    background-color: #D34646;
+    margin-top: 20px;
+    border-radius: 8px 40px 8px 8px;
+    border: solid rgb(51, 51, 51);
+}
+
+.conteinerPersonagem #imgPersonagem {
+    border-radius: 10px 10px 10px 40px;
+    border: solid white;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#namePersonagem {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 8px 8px;
+    color: white;
+}
+
